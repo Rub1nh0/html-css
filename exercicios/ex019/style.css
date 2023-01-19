@@ -1,0 +1,33 @@
+@charset "UTF-8";
+/*
+em html (id) = em css (#) só por um elemento por pag
+em html (class) = em css (.) mais de um elemento por pag
+*/
+body{
+    background-color: #5BCAD5;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    color: #0088A3(3, 70, 48);
+  
+}
+h1#principal{
+    text-align: center;
+    background-color: #0088A3;
+    color: #022946;
+}
+h2{
+    color: #0088A3(3, 70, 48);
+}
+.basico{
+color: #ffffff;
+}
+.intermediario{
+color: #F2E416;
+}
+.avançado{
+color: #f21616;
+}
+.destaque{
+    background-color: #E6E6E8;
+}

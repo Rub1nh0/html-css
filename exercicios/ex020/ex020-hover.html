@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de hover</title>
+    <style>
+        body{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        div > p{
+            display: none;
+        }
+        div:hover{
+            color: #525759;
+        }
+        div:hover >p{
+            display: block;
+            color: #ec0000;
+            height: 100px;
+            width: 200px;
+            background-color: #2c2c2c;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de Hover</h1>
+    <div>
+        Passe o mouse aqui!
+       <p>Esse texto está oculto, devido a configuração feita na div.</p> 
+    </div>
+    <h2>Fim do exemplo</h2>
+</body>
+</html>

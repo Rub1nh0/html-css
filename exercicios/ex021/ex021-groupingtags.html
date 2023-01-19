@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            background-color: silver;
+            margin: 0px;
+        }
+        nav{
+            background-color: rgb(86, 86, 86);
+            padding: 2px;
+            box-shadow: 6px 5px 8px -1px rgb(0 0 0 / 75%)
+        }
+        nav > a {
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+            margin-left: 80px;
+
+        }
+        nav > a:hover{
+            text-decoration: underline;
+        }
+        header{
+            background-color: whitesmoke;
+            color: black;
+            padding: 8px;
+            margin: 10px;
+        }
+        main{
+            background-color: whitesmoke;
+            color: black;
+            padding: 8px;
+            margin: 10px;
+            border-radius: 8px 8px 6px 6px;
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 2px;
+            margin: 0px;
+        }
+        footer > p {
+            margin: 2px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="Assuntos">
+            <p>Esportes, Politica e tecnologia</p>
+        </section>
+        <section id="Noticia">
+            <article>
+                <aside>
+                    <h2>Noticias do Brasil</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate voluptates, id repellendus maxime et minus expedita quod labore placeat debitis fuga, suscipit consequatur reiciendis nihil, natus rerum quibusdam saepe eligendi!</p>
+                    <p>artigo escrito por fulano de tal</p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por cursoemvideo</p>
+    </footer>
+</body>
+</html>
