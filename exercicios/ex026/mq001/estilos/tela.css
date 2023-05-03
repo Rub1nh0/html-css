@@ -1,0 +1,35 @@
+@charset "UTF-8";
+/*ESTILOS PARA TELA*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+header{
+    background-color: lightblue;
+}
+
+header > h1 {
+    text-align: center;
+
+}
+menu ul{
+    list-style-type: none;
+    background-color: darkcyan;
+}
+menu li{
+    display: inline-block;
+    background-color: darkgray;
+    color: whitesmoke;
+    padding: 10px;
+}
+article{
+    display: block;
+    width: 600px;
+    margin: auto;
+}
